@@ -9,7 +9,7 @@ body {
 }
 
 .container-principal {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(28, 1, 126);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@ body {
 }
 
 .display-imagem {
-    border: 1px solid #ccc;
+
     height: 300px; /* Altura fixa para o display */
     margin: 20px 0;
     overflow: hidden; /* Garante que a imagem não vaze */
@@ -54,7 +54,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: rgb(56, 56, 56);
+    background: rgba(28, 1, 126, 0.795);
 }
 
 #btn-gerar-cao {
