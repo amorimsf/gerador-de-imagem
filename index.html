@@ -4,14 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Gerador de imagem</title>
+    <title>Gerador de Cães e Gatos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Gerador de imagens de bichinhos</h1>
-    </header>
 
+    <main class="container-principal">
+        <h1>Qual bichinho você quer ver?</h1>
+
+        <div class="display-imagem">
+            <img id="imagem-bichinho" src="./placeholder.png" alt="Aguardando geração de imagem">
+        </div>
+
+        <div class="controles">
+            <button id="btn-gerar-cao">Gerar Cão</button>
+            
+            <button id="btn-gerar-gato">Gerar Gato</button>
+        </div>
+    </main>
+    
     <script src="script.js"></script>
+
 </body>
 </html>
